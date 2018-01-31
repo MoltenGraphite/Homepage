@@ -16,3 +16,6 @@ a {
   font-size: 50px;
   animation: glow 1s infinite;
 }
+.avatar {
+  width:100px;height:100px;
+}
