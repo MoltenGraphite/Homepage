@@ -12,3 +12,7 @@ a {
   color: cyan;
   animation: glow 1s infinite;
 }
+.title {
+  font-size: 50px;
+  animation: glow 1s infinite;
+}
