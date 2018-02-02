@@ -1,16 +1,34 @@
 <html>
 <head>
   <link rel="stylesheet" href="index.css" />
+  <style>
+    .knep,
+    .knep.h3 {
+      
+    }
+  </style>
 </head>
 <body>
   <center><h1>MoltenGraphite</h1></center>
   <table>
     <tbody>
       <tr>
-        <td id="content"></td>
+        <td id="content">
+          <div class="knep">
+            <h3>JHRand</h3>
+          </div>
+        </td>
         <td id="sidebar"><img class="avatar" src="https://avatars2.githubusercontent.com/u/15944183?s=460&v=4" width:"75" height:"75"><br><b>JHNUXER</b></td>
       </tr>
     </tbody>
   </table>
+  <script>
+    (function() {
+      _USERBASE = getUserBase();
+      for (var ub in _USERBASE) {
+        document.getElementById("sidebar").innerHTML+="<br><br><img class='avatar' src='https://avatars2.githubusercontent.com/u/'"+ub.nid+"?s=460&v=4' width='50' height='50'><br><b>"+ub.name+"</b>";
+      }
+    })();
+  </script>
 </body>
 </html>
