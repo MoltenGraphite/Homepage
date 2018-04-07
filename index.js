@@ -9,3 +9,6 @@ urb.prototype.toString = function() {
   return "<div><h4>"+this.title+"</h4><p>"+this.description+"</p></div>";
 }
 
+getUserBase = function() {
+  return userBase || {};
+}
