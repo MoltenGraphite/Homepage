@@ -10,5 +10,5 @@ urb.prototype.toString = function() {
 }
 
 getUserBase = function() {
-  return userBase || {};
+  return userbase || {};
 }
