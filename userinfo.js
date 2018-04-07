@@ -1,4 +1,4 @@
-import "userbase";
+import userbase;
 
 function getParam(c) {
   var url_string = window.location.href;
